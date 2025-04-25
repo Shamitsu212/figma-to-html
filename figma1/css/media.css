@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+  .firstSection .firstSection_h {
+    font-size: 72px;
+    font-weight: 300;
+    margin-left: 33px;
+    margin-top: 72px;
+  }
+  .firstSection .firstSection_p {
+    min-width: 58px;
+    min-width: auto;
+    max-width: 635px;
+    margin-left: 39px;
+    margin-top: 0;
+  }
+  .firstSection .firstSection_button {
+    margin-left: 39px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+  }
+}
+@media (max-width: 500px) {
+  .firstSection .firstSection_h {
+    font-size: 48px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 32px;
+  }
+  .firstSection .firstSection_p {
+    min-width: 58px;
+    min-width: auto;
+    max-width: 273px;
+    margin-left: 31px;
+    margin-top: 8px;
+  }
+  .firstSection .firstSection_button {
+    margin-left: 31px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 500px) {
+  .cards_container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+@media (max-width: 768px) {
+  .card_container_left {
+    margin-left: 39px;
+  }
+}
+@media (max-width: 500px) {
+  .card_container_left {
+    margin-left: 16px;
+  }
+}
+@media (max-width: 768x) {
+  .card_container {
+    max-width: 390px;
+  }
+  .card_container .card_container_first {
+    margin-bottom: 20px;
+  }
+  .card_container .card_container_first_text {
+    margin-left: 20px;
+  }
+  .card_container .card_container_H {
+    margin-bottom: 12px;
+    margin-left: 20px;
+  }
+  .card_container .card_container_info {
+    margin-bottom: 6px;
+    margin-left: 20px;
+  }
+  .card_container .card_container_button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .card_container {
+    max-width: 288px;
+    max-height: 273px;
+  }
+  .card_container .card_container_first {
+    margin-bottom: 20px;
+  }
+  .card_container .card_container_first_text {
+    margin-left: 20px;
+  }
+  .card_container .card_container_H {
+    margin-bottom: 12px;
+    margin-left: 20px;
+  }
+  .card_container .card_container_info {
+    margin-bottom: 26px;
+    margin-left: 20px;
+  }
+  .card_container .card_container_button {
+    margin-bottom: 29px;
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
