@@ -1,4 +1,302 @@
+@import "browser.scss";
+
 .body
 {
     display: flex;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #232323;
+    color: white;
+
+    width: 100%;
+    max-width: 1678px;
+    height: 32px;
+}
+.header_nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+
+    width: 100%;
+    max-width: 500px;
+    height: 20px;
+}
+.header_phone
+{
+    margin-left: 286px;
+}
+.catalog
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+    width: 100%;
+    max-width: 205px;
+    height: 32px;
+
+    background-color: #F17E00;
+    color: white;
+
+    margin-right: 367px;
+}
+.catalog_logo
+{
+    margin-left: 27px;
+
+    width: 16px;
+    height: 16px;
+}
+.catalog_text
+{
+    margin-left: 4px;
+}
+.firstSection
+{
+    width: 1678px;
+    height: 779px;
+
+    display: flex;
+    flex-direction: row;
+}
+.side_panel
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    background-color: #232323;
+    color: white;
+
+    height: 779px;
+    width: 205px;
+}
+.proxson
+{
+    height: 23px;
+    width: 100%;
+    max-width: 98px;
+
+    margin-left: 27px;
+    margin-top: 21px;
+}
+.fabric
+{
+    margin-top: 23px;
+}
+.side_logoContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 205px;
+    height: 38px;
+
+    background-color: #4F4E4E;
+
+    margin-top: 16px;
+}
+.side_logoContainer_logo
+{
+    width: 149px;
+    height: 21px;
+}
+.side_pagesContainer
+{
+    margin-top:33px;
+
+    display: flex;
+    gap: 33px;
+    flex-direction: column;
+}
+.side_a
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    width: 100%;
+
+    margin-left: 28px;
+}
+.side_image
+{
+    width: 36px;
+    height: 36px;
+
+    margin-right: 17px;
+}
+.firstSection_columns
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 1473px;
+    height: 779px;
+
+    background: url("first_section_background.png");
+    background-size: cover;
+
+}
+.firstSection_logoContainer
+{
+    display: flex;
+    
+    justify-content: center;
+
+    width: 100%;
+    height: 180px;
+
+    background: linear-gradient(to bottom, #FFFFFF , #FFFFFF00);
+    background-size: cover;
+}
+.firstSection_logoContainer_logo
+{
+    width: 254px;
+    height: 51px;
+
+    margin-top: 23px;
+}
+.firstSection_content
+{
+    display: flex;
+    flex-direction: row;
+}
+.firstSection_content_matras
+{
+    margin-left: 87px;
+    width: 100%;
+    max-width: 794px;
+    height: 517px;
+}
+.radioContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.matras_text
+{
+    font-size: 64px;
+    font-weight: 200;
+  }
+  .matras_text_left
+  {
+    margin-left: 227px;
+  }
+  .matras_cost_container
+  {
+    margin-left: 100px;
+  }
+  .matras_cost_line
+  {
+    font-size: 34px;
+    color: gray;
+  }
+  .matras_cost
+  {
+    font-size: 64px;
+    font-weight: 200;
+
+    margin-left: 12px;
+  }
+  .ul {
+    list-style: none;
+
+    margin-top: 60px;
+  }
+
+  .ul_block 
+  {
+    position: relative;
+
+    margin-bottom: 8px;
+
+    padding: 5px;
+  }
+
+  .ul_block::before {
+    content: "";
+    background-color: #F17E00;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+
+    position: absolute;
+
+    top: 50%; 
+    left: -13px; 
+    transform: translateY(-50%); 
+    
+    width: 12px;
+    height: 14px; 
+  }
+
+  .radioContainer
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .customRadio {
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;         
+  
+    width: 24px;
+    height: 24px;
+
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    border-radius: 50%;
+
+    background-color: white;
+
+    cursor: pointer;
+
+    position: relative;
+
+    transition: all 0.3s ease;
+  }
+  
+
+.customRadio:checked {
+    border-radius: 40%;
+
+    width: 42px;
+    height: 25px;
+}
+
+
+.customRadio:checked::after {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    width: 20px;
+    height: 6px;
+
+    background: black;
+
+    border-radius: 2px; 
+
+    transform: translate(-50%, -50%); 
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
 }

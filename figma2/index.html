@@ -4,58 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div>
-        <header>
-            <div>Каталог</div>
-            <a>О нас</a>
-            <a>Акции</a>
-            <a>Отзывы</a>
-            <a>Покупателям</a>
-            <a>Контакты</a>
-            <address>+7(4872)710-150</address>
+        <header class="header">
+            <button class="catalog">
+                <img class="catalog_logo" src="image/catalog.png">
+                <span class="catalog_text">Каталог</span>
+            </button>
+            <nav class="header_nav">
+                <a>О нас</a>
+                <a>Акции</a>
+                <a>Отзывы</a>
+                <a>Покупателям</a>
+                <a>Контакты</a>
+            </nav>
+            <address class="header_phone">+7(4872)710-150</address>
         </header>
         <main>
-            <section>
-                <aside>
-                    <img>
-                    <img>
-                    <img>
-                    <a>Матрас</a>
-                    <a>Матрасы</a>
-                    <a>Подушки</a>
-                    <a>Спальня</a>
-                    <a>Аксесуары</a>
-                    <a>Детям</a>
-                </aside>
-                <div>
-                    <div>
-                        <img>
+            <section class="firstSection">
+                <aside  class="side_panel">
+                    <img src="image/proxson.png" class="proxson">
+                    <img src="image/fabric.png" class="fabric">
+                    <div class="side_logoContainer">
+                        <img class="side_logoContainer_logo" src="image/sidelogo.png">
                     </div>
-                    <div>
-                        <img>
+                    <div class="side_pagesContainer">
+                        <a class="side_a"><img src="image/side1.png" class="side_image">Матрас</a>
+                        <a class="side_a"><img src="image/side2.png" class="side_image">Подушки</a>
+                        <a class="side_a"><img src="image/side3.png" class="side_image">Спальня</a>
+                        <a class="side_a"><img src="image/side4.png" class="side_image">Топеры</a>
+                        <a class="side_a"><img src="image/side5.png" class="side_image">Аксессуары</a>
+                        <a class="side_a"><img src="image/side6.png" class="side_image">Детям</a>
+                    </div>
+                </aside>
+                <div class="firstSection_columns">
+                    <div class="firstSection_logoContainer">
+                        <img class="firstSection_logoContainer_logo" src="image/Mebella.png">
+                    </div>
+                    <div class="firstSection_content">
                         <div>
-                            <a>
-                                <h1>Матрас Monday</h1>
-                                <p>80 x 200</p>
-                                <p><span>15 750₽</span>13 388₽</p>
-                                <ul>
-                                    <li>Независимый блок "TFK 5 ZONE"</li>
-                                    <li>Максимальная нагрузка - 140кг</li>
-                                    <li>Высота матраса - 20см</li>
-                                </ul>
-                            </a>
+                            <img class="firstSection_content_matras" src="image/matras.png">
+                        </div>
+                        <div>
+                            <img>
+                            <div>
+                                <a>
+                                    <h1 class="matras_text">Матрас Monday</h1>
+                                    <p class="matras_text matras_text_left">80 x 200</p>
+                                    <p class="matras_cost_container"><span class="matras_cost_line">15 750₽</span><span class="matras_cost">13 388₽</span></p>
+                                    <ul class="ul">
+                                        <li class="ul_block">Независимый блок "TFK 5 ZONE"</li>
+                                        <li class="ul_block">Максимальная нагрузка - 140кг</li>
+                                        <li class="ul_block" >Высота матраса - 20см</li>
+                                    </ul>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <input type="radio">
-                        <input type="radio">
-                        <input type="radio">
-                        <input type="radio">
-                        <input type="radio">
-                        <input type="radio">
+                    <div class="radioContainer">
+                        <input class="customRadio" type="radio" name="group1">
+                        <input class="customRadio" type="radio" name="group1">
+                        <input class="customRadio" type="radio" name="group1">
+                        <input class="customRadio" type="radio" name="group1">
+                        <input class="customRadio" type="radio" name="group1">
+                        <input class="customRadio" type="radio" name="group1">
                     </div>
                 </div>
             </section>
