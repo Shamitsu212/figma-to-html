@@ -173,12 +173,30 @@
     display: flex;
     flex-direction: row;
 }
+.firstSection_images
+{
+    position: relative;
+}
 .firstSection_content_matras
 {
     margin-left: 87px;
+
     width: 100%;
     max-width: 794px;
     height: 517px;
+}
+.firstSection_content_baige
+{
+    position:absolute;
+
+    top: 0;
+    left: 0;
+
+    margin-left: 450px;
+    margin-top: 268px;
+
+    width: 151px;
+    height: 123px;
 }
 .radioContainer
 {
@@ -201,11 +219,34 @@
   {
     margin-left: 100px;
   }
-  .matras_cost_line
+  .matras_cost_line 
   {
+    position: relative;
+
+    display: inline-block;
+
     font-size: 34px;
+
     color: gray;
   }
+  
+  .matras_cost_line::after 
+  {
+    content: "";
+    position: absolute;
+
+    top: 50%;
+    left: 0;
+
+    width: 100%; 
+    height: 2px;
+
+    background: #848484;
+
+    transform: rotate(-8.49deg);
+    transform-origin: center;
+  }
+  
   .matras_cost
   {
     font-size: 64px;
@@ -289,14 +330,231 @@
     top: 50%;
     left: 50%;
 
-    width: 20px;
+    width: 24px;
     height: 6px;
 
     background: black;
 
-    border-radius: 2px; 
+    border-radius: 8px; 
 
     transform: translate(-50%, -50%); 
 
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+.secondSection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+    max-width: 1680px;
+    height: 680px;
+
+    background-color: white;
+}
+.secondSection_card
+{
+    width: 358px;
+    height: 526px;
+
+    border-radius: 12px ;
+
+    background-color: black;
+}
+.thirdSection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+    max-width: 1680px;
+    height: 703px;
+
+    background-color: white;
+}
+.thirdSection_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 50%;
+    height: 100%;
+
+    margin-left: 114px;
+}
+.thirdSection_container_column
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 50%;
+    height: 67%;
+}
+.thirdSection_image
+{
+    width: 796px;
+    height: 472px;
+}
+.thirdSection_text
+{
+    display: inline-block;
+
+    width: 553px;
+    height: 228px;
+
+    margin: 20px;
+
+    font-size: 18px;
+}
+.thirdSection_h
+{
+    display: inline-block;
+    width: 559px;
+    height: 82px;
+
+    margin-right: 92px;
+    font-size: 32px;
+}
+.fourSection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    position: relative;
+
+    width: 1678px;
+    height: 509px;
+
+    background: url("Section4.png");
+    background-size: cover;
+}
+.fourSection_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 40%;
+}
+.fourSection_ImageContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+}
+.fourSection_form
+{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+
+    margin-top:30px;
+    margin-left: 135px;
+}
+.fourSection_button
+{
+    width: 211px;
+    height: 53px;
+
+    border-radius: 26.5px;
+
+    color: white;
+
+    background-color: #232323;
+}
+.fourSection_input
+{
+    width: 438px;
+    height: 53px;
+
+
+    padding-left: 15px;
+    box-sizing: border-box;
+
+    border-radius: 26.5px;
+
+    background-color: white;
+
+    color: black;
+}
+.fourSection_H
+{
+    display: inline-block;
+
+    width: 462px;
+    height: 128px;
+
+    font-weight: 300;
+    font-size: 64px;
+
+    color: white;
+
+    margin-top: 20px;
+}
+.fourSection_Text
+{
+    display: inline-block;
+
+    width: 530px;
+    height: 30px;
+
+    font-weight: 300;
+    font-size: 18px;
+
+    color: white;
+
+    margin-top: 20px;
+}
+.fiveSection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1678px;
+    height: 486px;
+}
+.fiveSection_h
+{
+    display: inline-block;
+    width: 208px;
+    height: 62px;
+
+    font-size: 48px;
+    font-weight: 300;
+
+    margin-top: 105px;
+}
+.fiveSection_Images
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 39px;
+
+    margin-top: 72px;
+}
+.reviews
+{
+    width: 441px;
+    height: 158px;
 }
