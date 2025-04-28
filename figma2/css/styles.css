@@ -688,4 +688,37 @@ table {
   width: 441px;
   height: 158px;
 }
+
+.sixSection {
+  position: relative;
+  width: 1684px;
+  height: 610px;
+  background: url("map.png");
+  background-size: cover;
+  margin-top: 89px;
+}
+
+.point {
+  position: absolute;
+  margin-top: 154px;
+  margin-left: 1060px;
+}
+
+.MebellaCard {
+  position: absolute;
+  margin-top: 186px;
+  margin-left: 223px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1680px;
+  height: 480px;
+}
 /*# sourceMappingURL=styles.css.map */
