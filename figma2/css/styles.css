@@ -56,6 +56,7 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-width: 1920px;
 }
 
 .header {
@@ -72,7 +73,7 @@ table {
   background-color: #232323;
   color: white;
   width: 100%;
-  max-width: 1678px;
+  max-width: 1920px;
   height: 32px;
 }
 
@@ -130,7 +131,7 @@ table {
 }
 
 .firstSection {
-  width: 1678px;
+  width: 1920px;
   height: 779px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -236,7 +237,7 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 1473px;
+  width: 1773px;
   height: 779px;
   background: url("first_section_background.png");
   background-size: cover;
@@ -443,16 +444,103 @@ table {
           align-items: center;
   gap: 20px;
   width: 100%;
-  max-width: 1680px;
+  max-width: 1920px;
   height: 680px;
   background-color: white;
 }
 
 .secondSection_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
   width: 358px;
   height: 526px;
-  border-radius: 12px;
-  background-color: black;
+  border-radius: 24px;
+}
+
+.firstcard {
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), color-stop(44%, rgba(122, 141, 159, 0.4))), url("image92.png");
+  background: linear-gradient(to bottom, #EBEBEB, rgba(122, 141, 159, 0.4) 44%), url("image92.png");
+  background-size: cover;
+}
+
+.secondcard {
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#CAF6D9), color-stop(30%, rgba(111, 155, 169, 0.6)));
+  background: linear-gradient(to bottom, #CAF6D9, rgba(111, 155, 169, 0.6) 30%);
+  background-size: cover;
+}
+
+.thirdcard {
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8196078431)), color-stop(44%, rgba(191, 213, 239, 0.6901960784))), url("image9.png");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8196078431), rgba(191, 213, 239, 0.6901960784) 44%), url("image9.png");
+  background-size: cover;
+}
+
+.fourcard {
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(227, 232, 254, 0.631372549)), color-stop(44%, rgba(149, 200, 211, 0.1294117647)));
+  background: linear-gradient(to bottom, rgba(227, 232, 254, 0.631372549), rgba(149, 200, 211, 0.1294117647) 44%);
+  background-size: cover;
+}
+
+.card_h {
+  width: 304px;
+  height: 73px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.card_procent {
+  font-size: 64px;
+}
+
+.den_rosi {
+  margin-top: 11px;
+}
+
+.card_text {
+  width: 278px;
+  height: 179px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 26px;
+}
+
+.stulV {
+  width: 230px;
+  height: 263px;
+  margin-left: 86px;
+}
+
+.circle {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: #F17E00 solid 4px;
+  background-color: white;
+  color: #F17E00;
+  font-size: 30px;
+  margin-top: 462px;
+  margin-left: 300px;
 }
 
 .thirdSection {
@@ -471,7 +559,7 @@ table {
           align-items: center;
   gap: 20px;
   width: 100%;
-  max-width: 1680px;
+  max-width: 1920px;
   height: 703px;
   background-color: white;
 }
@@ -554,7 +642,7 @@ table {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
-  width: 1678px;
+  width: 1920px;
   height: 509px;
   background: url("Section4.png");
   background-size: cover;
@@ -656,7 +744,7 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 1678px;
+  width: 1920px;
   height: 486px;
 }
 
@@ -691,7 +779,7 @@ table {
 
 .sixSection {
   position: relative;
-  width: 1684px;
+  width: 1920px;
   height: 610px;
   background: url("map.png");
   background-size: cover;
@@ -721,7 +809,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1680px;
+  width: 1920px;
   height: 480px;
 }
 
@@ -736,9 +824,19 @@ table {
           flex-direction: row;
 }
 
+.footer_item_firstMargin {
+  margin-top: 94px;
+  margin-bottom: 53px;
+}
+
+.footer_item_lastMargin {
+  margin-bottom: 54px;
+}
+
 .mebelloCopyright {
   width: 50%;
   margin-left: 80px;
+  margin-top: 42px;
 }
 
 .SocialContainer {
@@ -750,6 +848,7 @@ table {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   width: 50%;
+  margin-top: 21px;
   margin-right: 80px;
 }
 
@@ -798,5 +897,19 @@ table {
           flex-direction: column;
   width: 50%;
   margin-left: 80px;
+}
+
+.Mebella_footer_logo {
+  width: 256px;
+  height: 46px;
+  margin-bottom: 53px;
+}
+
+.footerPhone {
+  font-size: 32px;
+}
+
+.footer_a {
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=styles.css.map */

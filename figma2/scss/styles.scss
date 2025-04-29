@@ -3,6 +3,8 @@
 .body
 {
     display: flex;
+
+    min-width: 1920px;
 }
 .header
 {
@@ -14,7 +16,7 @@
     color: white;
 
     width: 100%;
-    max-width: 1678px;
+    max-width: 1920px;
     height: 32px;
 }
 .header_nav
@@ -61,7 +63,7 @@
 }
 .firstSection
 {
-    width: 1678px;
+    width: 1920px;
     height: 779px;
 
     display: flex;
@@ -142,7 +144,7 @@
     display: flex;
     flex-direction: column;
 
-    width: 1473px;
+    width: 1773px;
     height: 779px;
 
     background: url("first_section_background.png");
@@ -205,7 +207,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .matras_text
 {
     font-size: 64px;
@@ -350,19 +351,104 @@
     gap: 20px;
 
     width: 100%;
-    max-width: 1680px;
+    max-width: 1920px;
     height: 680px;
 
     background-color: white;
 }
 .secondSection_card
 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
     width: 358px;
     height: 526px;
 
-    border-radius: 12px ;
+    border-radius: 24px ;
+}
+.firstcard
+{
+    overflow: hidden;
+    background: linear-gradient(to bottom, #EBEBEB, #7A8D9F66 44%),url('image92.png');
+    background-size: cover;
+}
+.secondcard
+{
+    overflow: hidden;
+    background: linear-gradient(to bottom, #CAF6D9, #6F9BA999 30% );
+    background-size: cover;
+}
+.thirdcard
+{
+    overflow: hidden;
+    background:  linear-gradient(to bottom, #FFFFFFD1 , #BFD5EFB0 44%) ,url('image9.png');
+    background-size: cover;
+}
+.fourcard
+{
+    overflow: hidden;
+    background: linear-gradient(to bottom, #E3E8FEA1, #95C8D321 44%);
+    background-size: cover;
+}
+.card_h
+{
+    width: 304px;
+    height: 73px;
 
-    background-color: black;
+    font-size: 32px;
+    font-weight: 600;
+
+    margin-top: 25px;
+}
+.card_procent
+{
+    font-size: 64px;
+}
+.den_rosi
+{
+    margin-top: 11px;
+}
+.card_text
+{
+    width: 278px;
+    height: 179px;
+
+    font-weight: 400;
+    font-size: 18px;
+
+    margin-top: 26px;
+}
+.stulV
+{
+    width: 230px;
+    height: 263px;
+
+    margin-left: 86px;
+}
+.circle
+{
+    position: absolute;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+    border: #F17E00 solid 4px;
+
+    background-color: white;
+    color: #F17E00;
+
+    font-size: 30px;
+
+    margin-top: 462px;
+    margin-left: 300px;
 }
 .thirdSection
 {
@@ -373,7 +459,7 @@
     gap: 20px;
 
     width: 100%;
-    max-width: 1680px;
+    max-width: 1920px;
     height: 703px;
 
     background-color: white;
@@ -437,7 +523,7 @@
 
     position: relative;
 
-    width: 1678px;
+    width: 1920px;
     height: 509px;
 
     background: url("Section4.png");
@@ -530,7 +616,7 @@
     align-items: center;
     flex-direction: column;
 
-    width: 1678px;
+    width: 1920px;
     height: 486px;
 }
 .fiveSection_h
@@ -562,7 +648,7 @@
 {
     position: relative;
 
-    width: 1684px;
+    width: 1920px;
     height: 610px;
 
     background: url("map.png");
@@ -590,7 +676,7 @@
     flex-direction: column;
     align-items: center;
 
-    width: 1680px;
+    width: 1920px;
     height: 480px;
 }
 .footer_item
@@ -599,11 +685,22 @@
     display: flex;
     flex-direction: row;
 }
+
+.footer_item_firstMargin
+{
+    margin-top: 94px;
+    margin-bottom: 53px;
+}
+.footer_item_lastMargin
+{
+    margin-bottom: 54px;
+}
 .mebelloCopyright
 {
     width: 50%;
 
     margin-left: 80px;
+    margin-top: 42px;
 }
 .SocialContainer
 {
@@ -611,6 +708,7 @@
     flex-direction: row-reverse;
     width: 50%;
 
+    margin-top: 21px;
     margin-right: 80px;
 }
 .hr{
@@ -647,4 +745,19 @@
     width: 50%;
 
     margin-left: 80px;
+}
+.Mebella_footer_logo
+{
+    width: 256px;
+    height: 46px;
+
+    margin-bottom: 53px;
+}
+.footerPhone
+{
+    font-size: 32px;
+}
+.footer_a
+{
+    margin-bottom: 5px;
 }
