@@ -7,132 +7,137 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="korzina">
+        <img class="korzina__logo" src="image/korzinalogo.png">
+        <div class="korzina__notification">
+            2
+        </div>
+    </div>
     <div>
         <header class="header">
-            <button class="catalog">
-                <img class="catalog_logo" src="image/catalog.png">
-                <span class="catalog_text">Каталог</span>
+            <button class="header__catalog">
+                <img class="catalog__logo" src="image/catalog.png">
+                <span class="catalog__text">Каталог</span>
             </button>
-            <nav class="header_nav">
+            <nav class="header__nav">
                 <a>О нас</a>
                 <a>Акции</a>
                 <a>Отзывы</a>
                 <a>Покупателям</a>
                 <a>Контакты</a>
             </nav>
-            <address class="header_phone">+7(4872)710-150</address>
+            <address class="header__phone">+7(4872)710-150</address>
         </header>
         <main>
             <section class="firstSection">
-                <aside  class="side_panel">
-                    <img src="image/proxson.png" class="proxson">
-                    <img src="image/fabric.png" class="fabric">
-                    <div class="side_logoContainer">
-                        <img class="side_logoContainer_logo" src="image/sidelogo.png">
+                <aside  class="firstSection__sidePanel">
+                    <img src="image/proxson.png" class="sidePanel__proxson">
+                    <img src="image/fabric.png" class="sidePanel__fabric">
+                    <div class="sidePanel__logoContainer">
+                        <img class="logoContainer__logo" src="image/sidelogo.png">
                     </div>
-                    <div class="side_pagesContainer">
-                        <a class="side_a"><img src="image/side1.png" class="side_image">Матрас</a>
-                        <a class="side_a"><img src="image/side2.png" class="side_image">Подушки</a>
-                        <a class="side_a"><img src="image/side3.png" class="side_image">Спальня</a>
-                        <a class="side_a"><img src="image/side4.png" class="side_image">Топеры</a>
-                        <a class="side_a"><img src="image/side5.png" class="side_image">Аксессуары</a>
-                        <a class="side_a"><img src="image/side6.png" class="side_image">Детям</a>
+                    <div class="sidePanel__pagesContainer">
+                        <a class="pagesContainer__a"><img src="image/side1.png" class="pagesContainer__image">Матрас</a>
+                        <a class="pagesContainer__a"><img src="image/side2.png" class="pagesContainer__image">Подушки</a>
+                        <a class="pagesContainer__a"><img src="image/side3.png" class="pagesContainer__image">Спальня</a>
+                        <a class="pagesContainer__a"><img src="image/side4.png" class="pagesContainer__image">Топеры</a>
+                        <a class="pagesContainer__a"><img src="image/side5.png" class="pagesContainer__image">Аксессуары</a>
+                        <a class="pagesContainer__a"><img src="image/side6.png" class="pagesContainer__image">Детям</a>
                     </div>
                 </aside>
-                <div class="firstSection_columns">
-                    <div class="firstSection_logoContainer">
-                        <img class="firstSection_logoContainer_logo" src="image/Mebella.png">
+                <div class="firstSection__flexColumnContainer">
+                    <div class="flexColumnContainer__logoContainer">
+                        <img class="logoContainer__logo" src="image/Mebella.png">
                     </div>
-                    <div class="firstSection_content">
-                        <div class="firstSection_images">
-                            <img class="firstSection_content_matras" src="image/matras.png">
-                            <img class="firstSection_content_baige" src="image/baige.png">
+                    <div class="flexColumnContainer__contentContainer">
+                        <div class="contentContainer__Best">
+                            <img class="Best__matrasImage" src="image/matras.png">
+                            <img class="matrasImage__baige" src="image/baige.png">
                         </div>
-                        <div>
-                            <img>
+                        <div class="contentContainer__priceContainer">
                             <div>
-                                    <h1 class="matras_text">Матрас Monday</h1>
-                                    <p class="matras_text matras_text_left">80 x 200</p>
-                                    <p class="matras_cost_container"><span class="matras_cost_line">15 750₽</span><span class="matras_cost">13 388₽</span></p>
-                                    <ul class="ul">
-                                        <li class="ul_block">Независимый блок "TFK 5 ZONE"</li>
-                                        <li class="ul_block">Максимальная нагрузка - 140кг</li>
-                                        <li class="ul_block" >Высота матраса - 20см</li>
+                                    <h1 class="priceContainer__Text">Матрас Monday</h1>
+                                    <p class="priceContainer__Text .priceContainer__Text__left">80 x 200</p>
+                                    <p class="priceContainer__costContainer"><span class="costContainer__text__line ">15 750₽</span><span class="costContainer__text ">13 388₽</span></p>
+                                    <ul class="priceContainer__Characteristics ">
+                                        <li class="Characteristics__textBlock ">Независимый блок "TFK 5 ZONE"</li>
+                                        <li class="Characteristics__textBlock ">Максимальная нагрузка - 140кг</li>
+                                        <li class="Characteristics__textBlock " >Высота матраса - 20см</li>
                                     </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="radioContainer">
-                        <input class="customRadio" type="radio" name="group1">
-                        <input class="customRadio" type="radio" name="group1">
-                        <input class="customRadio" type="radio" name="group1">
-                        <input class="customRadio" type="radio" name="group1">
-                        <input class="customRadio" type="radio" name="group1">
-                        <input class="customRadio" type="radio" name="group1">
+                    <div class="flexColumnContainer__radioContainer">
+                        <input class="radioContainer__customRadio" type="radio" name="group1">
+                        <input class="radioContainer__customRadio" type="radio" name="group1">
+                        <input class="radioContainer__customRadio" type="radio" name="group1">
+                        <input class="radioContainer__customRadio" type="radio" name="group1">
+                        <input class="radioContainer__customRadio" type="radio" name="group1">
+                        <input class="radioContainer__customRadio" type="radio" name="group1">
                     </div>
                 </div>
             </section>
             <section class="secondSection">
-                <div class="secondSection_card firstcard" >
-                    <div class="card_h">
+                <div class="secondSection__cardContainer cardContainer__firstcard" >
+                    <div class="cardContainer__h">
                         Кресла Vancouver
                         4 по цене 3
                     </div>
-                    <div class="card_text">
+                    <div class="cardContainer__text">
                         Покупая 3 кресла Vancouver получаете четвертое  в подарок.
                         Для участия в акции достаточно добавить в заказ 3 кресла и при 
                         оформлении наш менеджер уточнит желаете ли вы 
                         получить четвертое.
                     </div>
-                    <div class="circle">
+                    <div class="cardContainer__circle">
                         <span>?</span>
                     </div>
                 </div>
-                <div class="secondSection_card fourcard" >
-                    <div class="card_h">
+                <div class="secondSection__cardContainer cardContainer__fourcard" >
+                    <div class="cardContainer__h">
                         Пуф в подарок
                     </div>
-                    <div class="card_text">
+                    <div class="cardContainer__text">
                         При покупке дивана от 150 000 ₽ вы получаете пуф в подарок
                     </div>
                     <img  src="image/seri_divan.png">
-                    <div class="circle">
+                    <div class="cardContainer__circle">
                         <span>?</span>
                     </div>
                 </div>
-                <div class="secondSection_card thirdcard" >
-                    <div class="card_h">
+                <div class="secondSection__cardContainer cardContainer__thirdcard" >
+                    <div class="cardContainer__h">
                         Скидки<br>
                         ко Дню России
                     </div>
-                    <div class="den_rosi">
-                        <span class="card_procent">3%</span><span class="card_navse">На всё</span>
+                    <div class="cardContainer__RussDay">
+                        <span class="cardContainer__procent">3%</span><span class="cardContainer__Text__smalltext">На всё</span>
                     </div>
-                    <div class="circle">
+                    <div class="cardContainer__circle">
                         <span>?</span>
                     </div>
                 </div>
-                <div class="secondSection_card secondcard" >
-                    <div class="card_h">Кресла Vancouver</div>
-                    <div class="card_procent card_procent">
+                <div class="secondSection__cardContainer cardContainer__secondcard" >
+                    <div class="cardContainer__h">Кресла Vancouver</div>
+                    <div class="cardContainer__procent">
                         33 400 ₽ 
                     </div>
-                    <div class="card_text">
+                    <div class="cardContainer__text">
                         Недорогие и стильные кресла с множеством вариантов обивки
                     </div>
-                    <img class="stulV" src="image/stul.png">
-                    <div class="circle">
+                    <img class="cardContainer__stulV" src="image/stul.png">
+                    <div class="cardContainer__circle">
                         <span>?</span>
                     </div>
                 </div>
             </section>
             <section class="thirdSection">
-                <div  class="thirdSection_container">
-                    <img src="image/thirdSectionImage.png" class="thirdSection_image">
+                <div  class="thirdSection__Imagecontainer">
+                    <img src="image/thirdSectionImage.png" class="Imagecontainer__image">
                 </div>
-                <div class="thirdSection_container_column">
-                    <h2 class="thirdSection_h">Mebello - особенный салон мебели в Туле</h2>
-                    <p class="thirdSection_text"> 
+                <div class="thirdSection_contentContainer">
+                    <h2 class="contentContainer_h">Mebello - особенный салон мебели в Туле</h2>
+                    <p class="contentContainer_text"> 
                         Салон Mebello - не просто магазин мебели на любой вкус. 
                         Здесь представлина шировая линейка производителей на любой вкус. Наши основные преимущества. 
                         Далее описательный текст на несколько абзацев.
@@ -146,67 +151,67 @@
                 </div>
             </section>
             <section class="fourSection">
-                <div class="fourSection_container">
-                    <h2 class="fourSection_H">Не нашли того, что искали? </h2>
-                    <p class="fourSection_Text">Оставьте свой номер и мы подберём для Вас всё, что нужно.</p>
-                    <form class="fourSection_form">
-                        <input type="text" placeholder="Телефон" class="fourSection_input">
-                        <button class="fourSection_button">ОТПРАВИТЬ</button>
+                <div class="fourSection__textContainer">
+                    <h2 class="textContainer__H">Не нашли того, что искали? </h2>
+                    <p class="textContainer__Text">Оставьте свой номер и мы подберём для Вас всё, что нужно.</p>
+                    <form class="textContainer__form">
+                        <input type="text" placeholder="Телефон" class="form__input">
+                        <button class="form__button">ОТПРАВИТЬ</button>
                     </form>
                 </div>
-                <div class="fourSection_ImageContainer">
-                    <img src="image/divan.png" class="fourSection_divan">
+                <div class="fourSection__ImageContainer">
+                    <img src="image/divan.png" class="Imagecontainer__image">
                 </div>
             </section>
             <section class="fiveSection">
                 <h2 class="fiveSection_h">ОТЗЫВЫ</h2>
-                <div class="fiveSection_Images">
-                    <img class="reviews" src="image/review1.png">
-                    <img class="reviews" src="image/review2.png">
-                    <img class="reviews" src="image/review3.png">
+                <div class="fiveSection__reviewsContainer">
+                    <img class="reviewsContainer__review" src="image/review1.png">
+                    <img class="reviewsContainer__review" src="image/review2.png">
+                    <img class="reviewsContainer__review" src="image/review3.png">
                 </div>
             </section>
             <section class="sixSection">
-                <img class="MebellaCard" src="image/mebellaCard.png">
-                <img class="point" src="image/poiny.png">
+                <img class="sixSection__MebellaCard" src="image/mebellaCard.png">
+                <img class="sixSection__point" src="image/poiny.png">
             </section>
             <footer class="footer">
-                <div class="footer_item footer_item_firstMargin">
-                    <div class="footer_columns">
-                        <img class="Mebella_footer_logo" src="image/Mebella_footer_image.png">
-                        <span class="footerPhone">+7 (4872) 710-150</span>
+                <div class="footer__item item__firstMargin">
+                    <div class="item__columns">
+                        <img class="columns__Mebellalogo" src="image/Mebella_footer_image.png">
+                        <span class="columns__Phone">+7 (4872) 710-150</span>
                     </div>
-                    <div class="tables">
-                        <div class="navtable">
-                            <h3 class="navtable_H">Каталог</h3>
-                            <a class="footer_a">Ангажмент</a>
-                            <a class="footer_a">Фабрика Мирлачева</a>
-                            <a class="footer_a">Pro Son</a>
+                    <div class="item__tables">
+                        <div class="tables__navtable">
+                            <h3 class="navtable__H">Каталог</h3>
+                            <a class="navtable__a">Ангажмент</a>
+                            <a class="navtable__a">Фабрика Мирлачева</a>
+                            <a class="navtable__a">Pro Son</a>
                         </div>
-                        <div class="navtable">
-                            <h3 class="navtable_H">Покупателю</h3>
-                            <a class="footer_a">Как оплатить</a>
-                            <a class="footer_a">Как получить</a>
-                            <a class="footer_a">Гарантия</a>
+                        <div class="tables__navtable">
+                            <h3 class="navtable__H">Покупателю</h3>
+                            <a class="navtable__a">Как оплатить</a>
+                            <a class="navtable__a">Как получить</a>
+                            <a class="navtable__a">Гарантия</a>
                         </div>
-                        <div class="navtable">
-                            <h3 class="navtable_H">О компании</h3>
-                            <a class="footer_a">О нас</a>
-                            <a class="footer_a">Контакты</a>
-                            <a class="footer_a">Статьи</a>
+                        <div class="tables__navtable">
+                            <h3 class="navtable__H">О компании</h3>
+                            <a class="navtable__a">О нас</a>
+                            <a class="navtable__a">Контакты</a>
+                            <a class="navtable__a">Статьи</a>
                         </div>
                     </div>
                 </div>
-                <div class="hr"></div>
-                <div class="footer_item footer_item_lastMargin">
-                    <div class="mebelloCopyright">
+                <div class="item__hr"></div>
+                <div class="footer__item item__lastMargin">
+                    <div class="item__mebelloCopyright">
                         © Mebello, . 2024.
                     </div>
-                    <div class="SocialContainer">
-                        <img class="socialMedia" src="image/socialMedia1.png">
-                        <img class="socialMedia" src="image/socialMedia2.png">
-                        <img class="socialMedia" src="image/socialMedia3.png">
-                        <img class="socialMedia" src="image/socialMedia4.png">
+                    <div class="item__socialContainer">
+                        <img class="socialContainer__image" src="image/socialMedia1.png">
+                        <img class="socialContainer__image" src="image/socialMedia2.png">
+                        <img class="socialContainer__image" src="image/socialMedia3.png">
+                        <img class="socialContainer__image" src="image/socialMedia4.png">
                     </div>
                 </div>
                 <div>
