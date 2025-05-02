@@ -11,6 +11,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow-x: hidden;
 }
 .main{
     width: 1920px;
@@ -406,8 +407,8 @@ body
 
                 border: 2px solid #EB008C;
 
-                margin-top: 36px;
                 margin-left: 30px;
+                margin-top: 36px;
 
                 border-radius: 8px;
             }
@@ -427,6 +428,21 @@ body
 
                 margin-top: 36px;
                 margin-left: 30px;
+
+                .buttonContainer__button
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    width: 210px;
+                    height: 56px;
+
+                    color: #EB008C;
+
+                    border: 2px solid #EB008C;
+                    border-radius: 8px;
+                }
                 
 
                 .buttonContainer__text{
@@ -638,4 +654,123 @@ body
 
         
     }
+}
+
+%column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+
+    width: 1920px;
+    height: 292px;
+
+    border-top: gray 2px solid;
+
+    margin-top: 80px
+}
+.footer__Logotable{
+    @extend %column;
+    
+
+    width: 500px;
+    .Logotable__text{
+        font-size: 36px;
+        font-weight: 500;
+
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .Logotable__LogoContainer
+    {
+        margin-left: 50px;
+        margin-top: 66px;
+
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+
+        height: 20px;
+
+        .Logo_latter{
+            width: 20px;
+            height: 20px;
+        }
+        .Logo_vector1
+        {
+            position: absolute;
+            margin-left: 125px;
+        }
+        .Logo_vector2
+        {
+            position:  absolute;
+            margin-left: 125px;
+            margin-top: -24px;
+        }
+    }
+}
+.footer__smalltable{
+    @extend %column;
+    gap: 20px;
+
+    width: 255px;
+
+    position: relative;
+
+    .smalltable__text
+    {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .smalltable__text--first
+    {
+        margin-top: 60px;
+    }
+}
+.footer__phonestable{
+    @extend %column;
+    gap: 20px;
+
+    width: 652px;
+
+    .phonestable__text
+    {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .phonestable__text--first
+    {
+        margin-top: 60px;
+    }
+}
+.footer_copyright{
+    @extend %column;
+    gap: 16px;
+
+    width: 500px;
+    .copyright__text{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .copyright__text--first
+    {
+        margin-top: 60px;
+    }
+    .copyright__phone
+    {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .copyright__text--last
+    {
+        margin-top: 56px;
+    }
+}
+.footer__blueText
+{
+    color: #0000BE;
 }
