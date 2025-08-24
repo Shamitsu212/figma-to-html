@@ -3,17 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma</title>
+    <title>Верстка макета с Figma #2</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="korzina">
-        <img class="korzina__logo" src="image/korzinalogo.png">
-        <div class="korzina__notification">
-            2
-        </div>
-    </div>
-    <div>
         <header class="header">
             <button class="header__catalog">
                 <img class="catalog__logo" src="image/catalog.png">
@@ -28,7 +21,9 @@
             </nav>
             <address class="header__phone">+7(4872)710-150</address>
         </header>
+
         <main>
+
             <section class="firstSection">
                 <aside  class="firstSection__sidePanel">
                     <img src="image/proxson.png" class="sidePanel__proxson">
@@ -36,29 +31,39 @@
                     <div class="sidePanel__logoContainer">
                         <img class="logoContainer__logo" src="image/sidelogo.png">
                     </div>
-                    <div class="sidePanel__pagesContainer">
+                    <nav class="sidePanel__pagesContainer">
                         <a class="pagesContainer__a"><img src="image/side1.png" class="pagesContainer__image">Матрас</a>
                         <a class="pagesContainer__a"><img src="image/side2.png" class="pagesContainer__image">Подушки</a>
                         <a class="pagesContainer__a"><img src="image/side3.png" class="pagesContainer__image">Спальня</a>
                         <a class="pagesContainer__a"><img src="image/side4.png" class="pagesContainer__image">Топеры</a>
                         <a class="pagesContainer__a"><img src="image/side5.png" class="pagesContainer__image">Аксессуары</a>
                         <a class="pagesContainer__a"><img src="image/side6.png" class="pagesContainer__image">Детям</a>
-                    </div>
+                    </nav>
                 </aside>
+
                 <div class="firstSection__flexColumnContainer">
-                    <div class="flexColumnContainer__logoContainer">
+                    <figure class="flexColumnContainer__logoContainer">
                         <img class="logoContainer__logo" src="image/Mebella.png">
-                    </div>
-                    <div class="flexColumnContainer__contentContainer">
+                    </figure>
+                    <article class="flexColumnContainer__contentContainer">
                         <div class="contentContainer__Best">
                             <img class="Best__matrasImage" src="image/matras.png">
                             <img class="matrasImage__baige" src="image/baige.png">
                         </div>
                         <div class="contentContainer__priceContainer">
                             <div>
-                                    <h1 class="priceContainer__Text">Матрас Monday</h1>
-                                    <p class="priceContainer__Text .priceContainer__Text__left">80 x 200</p>
-                                    <p class="priceContainer__costContainer"><span class="costContainer__text__line ">15 750₽</span><span class="costContainer__text ">13 388₽</span></p>
+                                <h2 class="priceContainer__Text">Матрас Monday</h1>
+                                <p class="priceContainer__Text .priceContainer__Text__left">
+                                    80 x 200
+                                </p>
+                                <p class="priceContainer__costContainer">
+                                    <span class="costContainer__text__line ">
+                                        15 750₽
+                                    </span>
+                                    <span class="costContainer__text ">
+                                        13 388₽
+                                    </span>
+                                </p>
                                     <ul class="priceContainer__Characteristics ">
                                         <li class="Characteristics__textBlock ">Независимый блок "TFK 5 ZONE"</li>
                                         <li class="Characteristics__textBlock ">Максимальная нагрузка - 140кг</li>
@@ -66,7 +71,7 @@
                                     </ul>
                             </div>
                         </div>
-                    </div>
+                    </article>
                     <div class="flexColumnContainer__radioContainer">
                         <input class="radioContainer__customRadio" type="radio" name="group1">
                         <input class="radioContainer__customRadio" type="radio" name="group1">
@@ -77,66 +82,74 @@
                     </div>
                 </div>
             </section>
+
             <section class="secondSection">
-                <div class="secondSection__cardContainer cardContainer__firstcard" >
-                    <div class="cardContainer__h">
+                <article class="secondSection__cardContainer cardContainer__firstcard" >
+                    <h3 class="cardContainer__h">
                         Кресла Vancouver
                         4 по цене 3
-                    </div>
-                    <div class="cardContainer__text">
+                    </h3>
+                    <p class="cardContainer__text">
                         Покупая 3 кресла Vancouver получаете четвертое  в подарок.
                         Для участия в акции достаточно добавить в заказ 3 кресла и при 
                         оформлении наш менеджер уточнит желаете ли вы 
                         получить четвертое.
-                    </div>
-                    <div class="cardContainer__circle">
+                    <p>
+                    <button class="cardContainer__circle">
                         <span>?</span>
-                    </div>
-                </div>
-                <div class="secondSection__cardContainer cardContainer__fourcard" >
-                    <div class="cardContainer__h">
+                    </button>
+                </article>
+
+                <article class="secondSection__cardContainer cardContainer__fourcard" >
+                    <h3 class="cardContainer__h">
                         Пуф в подарок
-                    </div>
-                    <div class="cardContainer__text">
+                    </h3>
+                    <p class="cardContainer__text">
                         При покупке дивана от 150 000 ₽ вы получаете пуф в подарок
-                    </div>
+                    </p>
                     <img  src="image/seri_divan.png">
-                    <div class="cardContainer__circle">
+                    <button class="cardContainer__circle">
                         <span>?</span>
-                    </div>
-                </div>
-                <div class="secondSection__cardContainer cardContainer__thirdcard" >
-                    <div class="cardContainer__h">
+                    </button>
+                </article>
+
+                <article class="secondSection__cardContainer cardContainer__thirdcard" >
+                    <h3 class="cardContainer__h">
                         Скидки<br>
                         ко Дню России
-                    </div>
-                    <div class="cardContainer__RussDay">
+                    </h3>
+                    <p class="cardContainer__RussDay">
                         <span class="cardContainer__procent">3%</span><span class="cardContainer__Text__smalltext">На всё</span>
-                    </div>
-                    <div class="cardContainer__circle">
+                    </p>
+                    <button class="cardContainer__circle">
                         <span>?</span>
-                    </div>
-                </div>
-                <div class="secondSection__cardContainer cardContainer__secondcard" >
-                    <div class="cardContainer__h">Кресла Vancouver</div>
-                    <div class="cardContainer__procent">
+                    </button>
+                </article>
+
+                <article class="secondSection__cardContainer cardContainer__secondcard" >
+                    <h3 class="cardContainer__h">
+                        Кресла Vancouver
+                    </h3>
+                    <p class="cardContainer__procent">
                         33 400 ₽ 
-                    </div>
-                    <div class="cardContainer__text">
+                    </p>
+                    <p class="cardContainer__text">
                         Недорогие и стильные кресла с множеством вариантов обивки
-                    </div>
+                    </p>
                     <img class="cardContainer__stulV" src="image/stul.png">
-                    <div class="cardContainer__circle">
+                    <button class="cardContainer__circle">
                         <span>?</span>
-                    </div>
-                </div>
+                    </button>
+                </article>
+
             </section>
+
             <section class="thirdSection">
-                <div  class="thirdSection__Imagecontainer">
+                <figure  class="thirdSection__Imagecontainer">
                     <img src="image/thirdSectionImage.png" class="Imagecontainer__image">
-                </div>
-                <div class="thirdSection_contentContainer">
-                    <h2 class="contentContainer_h">Mebello - особенный салон мебели в Туле</h2>
+                </figure>
+                <article class="thirdSection_contentContainer">
+                    <h4 class="contentContainer_h">Mebello - особенный салон мебели в Туле</h4>
                     <p class="contentContainer_text"> 
                         Салон Mebello - не просто магазин мебели на любой вкус. 
                         Здесь представлина шировая линейка производителей на любой вкус. Наши основные преимущества. 
@@ -148,33 +161,45 @@
                         Здесь представлина шировая линейка производителей на любой вкус. 
                         Наши основные преимущества. Далее описательный текст на несколько абзацев.
                     </p>
-                </div>
+                </article>
             </section>
+
             <section class="fourSection">
                 <div class="fourSection__textContainer">
-                    <h2 class="textContainer__H">Не нашли того, что искали? </h2>
-                    <p class="textContainer__Text">Оставьте свой номер и мы подберём для Вас всё, что нужно.</p>
+                    <h4 class="textContainer__H">
+                        Не нашли того, что искали? 
+                    </h4>
+                    <p class="textContainer__Text">
+                        Оставьте свой номер и мы подберём для Вас всё, что нужно.
+                    </p>
                     <form class="textContainer__form">
                         <input type="text" placeholder="Телефон" class="form__input">
                         <button class="form__button">ОТПРАВИТЬ</button>
                     </form>
                 </div>
-                <div class="fourSection__ImageContainer">
+
+                <figure class="fourSection__ImageContainer">
                     <img src="image/divan.png" class="Imagecontainer__image">
-                </div>
+                </figure>
+
             </section>
+
             <section class="fiveSection">
-                <h2 class="fiveSection_h">ОТЗЫВЫ</h2>
+                <h5 class="fiveSection_h">
+                    ОТЗЫВЫ
+                </h5>
                 <div class="fiveSection__reviewsContainer">
                     <img class="reviewsContainer__review" src="image/review1.png">
                     <img class="reviewsContainer__review" src="image/review2.png">
                     <img class="reviewsContainer__review" src="image/review3.png">
                 </div>
             </section>
+
             <section class="sixSection">
                 <img class="sixSection__MebellaCard" src="image/mebellaCard.png">
                 <img class="sixSection__point" src="image/poiny.png">
             </section>
+
             <footer class="footer">
                 <div class="footer__item item__firstMargin">
                     <div class="item__columns">
@@ -220,7 +245,5 @@
             </footer>
 
         </main>
-
-    </div>
 </body>
 </html>

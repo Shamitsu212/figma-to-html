@@ -1,5 +1,8 @@
 @import "browser.scss";
 
+html{
+    overflow-x: hidden;
+}
 .body
 {
     display: flex;

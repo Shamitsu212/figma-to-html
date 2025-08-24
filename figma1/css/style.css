@@ -26,7 +26,6 @@ select {
 }
 
 img {
-  vertical-align: middle;
   max-width: 100%;
   height: auto;
   display: block;
@@ -273,26 +272,23 @@ table {
 }
 
 .grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 574px 153px 225px 161px;
-  grid-template-columns: 574px 153px 225px 161px;
-  grid-auto-rows: 49px;
+  width: auto;
+  border-collapse: collapse;
   margin-left: 55px;
   margin-top: 32px;
   margin-bottom: 73px;
 }
-.grid .grid_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.grid th, .grid td {
   border: 1px solid #DEE2E6;
+  padding: 12px 20px;
+  text-align: left;
+}
+.grid th {
+  background-color: rgba(0, 0, 0, 0.031372549);
+  font-weight: bold;
 }
 .grid .grid_item_text {
-  margin-left: 20px;
+  margin-left: 0;
 }
 .grid .grid_item_text_blue {
   color: #007BFF;
@@ -321,8 +317,6 @@ table {
     margin-top: 72px;
   }
   .firstSection .firstSection_p {
-    min-width: 58px;
-    min-width: auto;
     max-width: 635px;
     margin-left: 39px;
     margin-top: 0;
@@ -341,8 +335,6 @@ table {
     margin-top: 32px;
   }
   .firstSection .firstSection_p {
-    min-width: 58px;
-    min-width: auto;
     max-width: 273px;
     margin-left: 31px;
     margin-top: 8px;
@@ -371,7 +363,7 @@ table {
     margin-left: 16px;
   }
 }
-@media (max-width: 768x) {
+@media (max-width: 768px) {
   .cardsContainer_card {
     max-width: 390px;
   }
@@ -418,7 +410,7 @@ table {
     margin-left: 20px;
   }
 }
-@media (max-width: 768x) {
+@media (max-width: 768px) {
   .cardsContainer_card_two {
     max-width: 270px;
     max-height: 180px;
@@ -430,7 +422,7 @@ table {
     max-height: 165px;
   }
 }
-@media (max-width: 768x) {
+@media (max-width: 768px) {
   .grid {
     -ms-grid-columns: 273px 115px 168px 137px;
     grid-template-columns: 273px 115px 168px 137px;
@@ -455,7 +447,7 @@ table {
     margin-left: 11px !important;
   }
 }
-@media (max-width: 768x) {
+@media (max-width: 768px) {
   .footer .footer_text {
     margin-left: 55px;
   }

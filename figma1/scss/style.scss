@@ -219,33 +219,33 @@
         margin-right: 20px;
     }
 }
-.grid
-{
-    display: grid;
-
-    grid-template-columns: 574px 153px 225px 161px;
-    grid-auto-rows: 49px;
-
+.grid {
+    width: auto;
+    border-collapse: collapse;
     margin-left: 55px;
     margin-top: 32px;
     margin-bottom: 73px;
-    
-    .grid_item
-    {
-        display: flex;
-        align-items: center;
 
+    th, td {
         border: 1px solid #DEE2E6;
+        padding: 12px 20px;
+        text-align: left;
     }
-    .grid_item_text
-    {
-        margin-left: 20px ;
+
+    th {
+        background-color: #00000008;
+        font-weight: bold;
     }
-    .grid_item_text_blue
-    {
+
+    .grid_item_text {
+        margin-left: 0; 
+    }
+
+    .grid_item_text_blue {
         color: #007BFF;
     }
 }
+
 
 .footer
 {
