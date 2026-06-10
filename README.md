@@ -14,7 +14,7 @@
 
 ## 🖼️ Превью макетов
 
-Ccылка -
+Ccылка - https://shamitsu212.github.io/figma-to-html/
 
 <img src="./Preview/3.png" width="250" /> 
 
